@@ -14,6 +14,8 @@
 		A3363EB9201325FA00E54A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3363EB7201325FA00E54A7D /* LaunchScreen.storyboard */; };
 		A3363EC4201325FB00E54A7D /* _________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3363EC3201325FB00E54A7D /* _________Tests.swift */; };
 		A3363ECF201325FB00E54A7D /* _________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3363ECE201325FB00E54A7D /* _________UITests.swift */; };
+		A3363EDD2013270A00E54A7D /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3363EDC2013270A00E54A7D /* DateManager.swift */; };
+		A3363EDF2013271F00E54A7D /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3363EDE2013271F00E54A7D /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A3363ECA201325FB00E54A7D /* カレンダーその二UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "カレンダーその二UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3363ECE201325FB00E54A7D /* _________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_________UITests.swift"; sourceTree = "<group>"; };
 		A3363ED0201325FB00E54A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3363EDC2013270A00E54A7D /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		A3363EDE2013271F00E54A7D /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				A3363EAE201325FA00E54A7D /* AppDelegate.swift */,
+				A3363EDC2013270A00E54A7D /* DateManager.swift */,
 				A3363EB0201325FA00E54A7D /* ViewController.swift */,
+				A3363EDE2013271F00E54A7D /* CalendarCell.swift */,
 				A3363EB2201325FA00E54A7D /* Main.storyboard */,
 				A3363EB5201325FA00E54A7D /* Assets.xcassets */,
 				A3363EB7201325FA00E54A7D /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3363EB1201325FA00E54A7D /* ViewController.swift in Sources */,
+				A3363EDD2013270A00E54A7D /* DateManager.swift in Sources */,
 				A3363EAF201325FA00E54A7D /* AppDelegate.swift in Sources */,
+				A3363EDF2013271F00E54A7D /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
